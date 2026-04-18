@@ -18,3 +18,5 @@ const interviewRouter=require("./routes/interview.routes")
 app.use("/api/auth",userRouter)
 app.use("/api/ai",interviewRouter)
 module.exports=app
+
+
