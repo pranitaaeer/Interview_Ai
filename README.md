@@ -68,4 +68,8 @@ Interview_AI/
 │   │   └── config/
 │   └── app.js
 ├── README.md
+<<<<<<< HEAD
 └── .gitignore
+=======
+└── .gitignore
+>>>>>>> b3c1ee80ca8aff84a4718026a6e78064ce3abf7c
