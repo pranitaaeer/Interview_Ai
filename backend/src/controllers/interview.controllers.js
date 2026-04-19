@@ -4,6 +4,7 @@ const { generateInterviewReport, generateResumePdf } = require("../service/ai.se
 const AIModel = require("../models/ai.model")
 
 
+
 const generateViewReportController=async (req,res) => {
     try {
         console.log("file data",req.file);
