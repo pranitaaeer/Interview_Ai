@@ -1,3 +1,4 @@
+
 import './style.scss'
 import { router } from "./app.route.jsx"
 import { RouterProvider } from 'react-router'
