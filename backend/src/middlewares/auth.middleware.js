@@ -2,6 +2,7 @@ const jwt = require("jsonwebtoken");
 const UserModel = require("../models/user.model");
 const BlacklistModel = require("../models/blacklist.model");
 
+
 const auth = async (req, res, next) => {
     try {
         // Retrieve the token from either cookies or the authorization header
