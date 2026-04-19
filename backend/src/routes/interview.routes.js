@@ -9,4 +9,5 @@ router.get(`/get_report/:reportId`,auth,getInterviewReportController)
 router.get("/get_all",auth,getAllInterviewReportController)
 router.post(`/generate/:reportId`,auth,generateInterviewReportPDFController)
 
+
 module.exports=router
