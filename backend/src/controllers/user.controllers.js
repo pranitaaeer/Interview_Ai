@@ -67,6 +67,7 @@ const login=async (req,res) => {
     }
 
 }
+
 const myInfo=async (req,res) => {
     try {
         const user=req.user
@@ -97,4 +98,5 @@ const logout=async (req,res) => {
         return res.status(500).json({message:"err in logout user",err:error})
     }
 }
+
 module.exports={signup,login,myInfo,logout}
