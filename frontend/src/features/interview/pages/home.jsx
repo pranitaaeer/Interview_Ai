@@ -1,3 +1,4 @@
+
 import '../style/home.scss'
 import Navbar from './navbar'
 import { useState,useRef ,useEffect} from 'react'
