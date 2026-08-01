@@ -157,8 +157,8 @@ const tokenBlacklistModel = require("../models/blacklist.model")
 // Production HTTPS Cookie Options
 const cookieOptions = {
     httpOnly: true,
-    secure: process.env.NODE_ENV === "production" || true, // HTTPS ke liye zaroori
-    sameSite: "none", // Cross-site (Vercel -> Render) ke liye zaroori
+    secure:  true, 
+    sameSite: "none", 
     maxAge: 24 * 60 * 60 * 1000 // 1 Day
 }
 
