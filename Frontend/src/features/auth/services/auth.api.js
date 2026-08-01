@@ -2,7 +2,7 @@ import axios from "axios"
 
 
 const api = axios.create({
-    baseURL: "https://interview-ai-2mm1.onrender.com",
+    baseURL: "https://interview-ai-2mm1.onrender.com/",
     withCredentials: true
 })
 
